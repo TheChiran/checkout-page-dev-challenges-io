@@ -1,4 +1,16 @@
 :root{
     --bg-color: #FFFFFF;
-    
+    --title-color: #4E5150;
+    --form-title-color: #333333;
+    --form-label-color: #4F4F4F;
+    --placeholder-text-color: #828282;
+    --input-border-color: #828282;
+    --text-input-color: #333333;
+    --discounted-price-color: #F2994A;
+    --original-price-color: #4E5150;
+    --cart-bg: #f2f2f2;
+    --button-bg: #F2994A;
+
+
+    --font-family: 'Montserrat', sans-serif;
 }
