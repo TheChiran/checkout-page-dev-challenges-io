@@ -1,0 +1,12 @@
+@import url("variables.css");
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;;
+    src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
