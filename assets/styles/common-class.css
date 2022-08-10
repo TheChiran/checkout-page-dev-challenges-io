@@ -1,3 +1,7 @@
+.mt-0{
+    margin-top: 0 !important;
+}
+
 .mb-15{
     margin-bottom: 15px !important;
 }
@@ -20,10 +24,6 @@
     font-family: Montserrat, sans-serif;
     padding: 0;
     margin: 0 0 50px 0;
-}
-
-.form-contents{
-
 }
 
 .form-contents > .form-content, .form-input-group{
