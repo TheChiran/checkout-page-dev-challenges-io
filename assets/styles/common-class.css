@@ -56,12 +56,12 @@
 }
 .form-input__wrapper{
     display: grid;
-    grid-template-columns: 1fr 11fr;
+    grid-template-columns: 24px 11fr;
     align-items: center;
     border: 1px solid #82828280;
     border-radius: 12px;
     padding: 18px 14px;
-    column-gap: 16px;
+    column-gap: 18px;
 }
 
 .form-input__wrapper input{
