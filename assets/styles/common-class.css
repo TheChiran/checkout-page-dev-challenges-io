@@ -32,6 +32,11 @@
     row-gap: 20px;
 }
 
+.form-input-group{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
 .form-contents > .form-content > .form-title{
     padding: 0;
     margin: 0;

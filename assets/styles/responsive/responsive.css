@@ -1,0 +1,65 @@
+@media (max-width: 1280px) {
+    .grid-container{
+        max-width: calc(100% - 240px) !important;
+    }
+}
+
+@media (max-width: 992px){
+    .grid-container{
+        max-width: calc(100% - 120px) !important;
+    }
+    
+    .cart-contents{
+        grid-row: 2 / 3 !important;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 901px){
+    .grid-container{
+        grid-template-columns: 12fr !important;
+    }
+
+    .form-input-group{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 769px){
+    .grid-container{
+        max-width: calc(100% - 24px) !important;
+        padding: 32px 0 24px 0 !important;
+    }
+
+    .title{
+        font-size: 24px !important;
+        margin-bottom: 20px;
+    }
+
+    .cart-amounts__amount h2{
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+}
+
+@media(max-width: 426px){
+    .cart-contents{
+        padding: 30px 26px !important;
+    }
+    .cart-card-item__image{
+        width: 100px !important;
+    }
+    .continue-btn button{
+        grid-column: 1 / -1 !important;
+    }
+
+    footer{
+        margin-top: 20px !important;
+    }
+}
+
+@media(max-width: 376px){
+    .cart-card-item__image{
+        width: 90px !important;
+    }
+}
